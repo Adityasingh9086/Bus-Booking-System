@@ -1,0 +1,5 @@
+#cur.execute('CREATE TABLE booking_history(booking_id numeric,p_name numeric,phone numeric,travel_on date,booked_on date,gender varchar(10),age numeric,source varchar(50),destination varchar(50),fare numeric,seats numeric)')
+#cur.execute('CREATE TABLE run(b_id numeric,running_date date,seat_available numeric)')
+#cur.execute('CREATE TABLE bus(bus_id numeric,bus_type varchar(15),capacity numeric,fare numeric,r_id numeric,operator_id numeric,foreign key(r_id) references route(route_id) on delete cascade,foreign key(operator_id) references operator(op_id) on delete cascade)')
+#cur.execute('CREATE TABLE route(route_id numeric,station_name varchar(25),station_id numeric)')
+#cur.execute('CREATE TABLE operator(op_id numeric,name varchar(25),address varchar(25),phone numeric,email varchar(100))')
